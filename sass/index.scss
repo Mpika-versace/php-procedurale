@@ -1,0 +1,27 @@
+body{
+    background: #000 ;
+    font-size: 14px;
+}
+.mdp{
+    border: 1px solid red;
+    position: relative;
+    .fas{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: .6rem;
+        cursor: pointer;
+    }
+    .fa-eye-slash{
+        display: none;
+        &.open{
+            display: block;
+        }
+    }
+    // .fa-eye{
+    //     display: block;
+    //     &.open{
+    //         display: none;
+    //     }
+    // }
+}

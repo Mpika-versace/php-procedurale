@@ -1,0 +1,27 @@
+body {
+  background: #000;
+  font-size: 14px;
+}
+
+.mdp {
+  border: 1px solid red;
+  position: relative;
+}
+
+.mdp .fas {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  right: .6rem;
+  cursor: pointer;
+}
+
+.mdp .fa-eye-slash {
+  display: none;
+}
+
+.mdp .fa-eye-slash.open {
+  display: block;
+}
+/*# sourceMappingURL=index.css.map */
