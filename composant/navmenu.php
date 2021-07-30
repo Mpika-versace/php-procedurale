@@ -19,6 +19,7 @@ if(!function_exists("navItem")){
          <?=navItem('Newsletter','newsletter.php');?>
          <?=navItem('Profil','profil.php');?>
          <?=navItem('compteur','exercice/compteur.php');?>
+         <?=navItem('dashboard','dashboard.php');?>
      
          
         

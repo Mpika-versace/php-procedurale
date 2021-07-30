@@ -1,11 +1,10 @@
 <?php
-session_start();
-
-
-
+// ajout du chemin auth.php
+require_once __DIR__.DIRECTORY_SEPARATOR.'authentification'.DIRECTORY_SEPARATOR.'auth.php';
+user_connect();
 
 $title='dashboard';
-include './composant/header.php';
+include_once './composant/header.php';
 // include './exercice/compteur.php';
 
 $year=(int)date('Y');
@@ -74,11 +73,11 @@ for ($i=0; $i < 5; $i++) {
    
     
 };
-
+ 
 ?>
 
 <div class="row">
-   
+    <p>bonjour <?=  $_SESSION['name'];?></p>
     <div class="col-md-4">
         <div class='list-group'>
              <?= $lastfiveyear; ?>     

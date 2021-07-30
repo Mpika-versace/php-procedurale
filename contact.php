@@ -35,7 +35,8 @@
             
             if ($name==='pernel' && $pass==='Vmp1990' && $check==="on") {
                   session_start();
-                 header('Location:http://localhost/Course-Grafikart/dashboard.php');
+                  $_SESSION['connect']=1;
+                 header('Location:http://localhost/PHP_%20procedurale/dashboard.php');
                  exit;
             }
             else {

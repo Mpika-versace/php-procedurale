@@ -1,5 +1,4 @@
 <?php 
-
     include_once 'vardump.php';
     require_once dirname(__DIR__).DIRECTORY_SEPARATOR.'exercice'.DIRECTORY_SEPARATOR.'compteur.php';
 ?>
@@ -31,8 +30,9 @@
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav me-auto mb-2 mb-md-0">
           <?php include_once "./composant/navmenu.php" ?> 
+          <li class='nav-item'> <a href="logout.php" class="nav-link">Se deconnecter</a></li>
       </ul>
-    </div>
+    </div> 
   </div>
 </nav>
 
